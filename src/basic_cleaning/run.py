@@ -67,14 +67,14 @@ if __name__ == "__main__":
 
     parser.add_argument(
         "--output_type", 
-        type = str
+        type = str,
         help = 'Type of the output dataset',
         required = True
     )
 
     parser.add_argument(
         "--output_description", 
-        type = str
+        type = str,
         help = 'Description of the output dataset',
         required = True
     )
